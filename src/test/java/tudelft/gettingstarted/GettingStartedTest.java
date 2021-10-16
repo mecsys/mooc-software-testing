@@ -28,6 +28,6 @@ public class GettingStartedTest {
     @Test
     public void addFiveToFive() {
         int result = new GettingStarted().addFive(5);
-        Assertions.assertEquals(10, result)
+        Assertions.assertEquals(10, result);
     }
 }
