@@ -26,8 +26,15 @@ public class GettingStartedTest {
     }
     
     @Test
-    public void addFiveToFive() {
+    public void addFiveToFive10() {
         int result = new GettingStarted().addFive(5);
         Assertions.assertEquals(10, result);
     }
+
+    @Test
+    public void addFiveToFive45() {
+        int result = new GettingStarted().addFive(45);
+        Assertions.assertEquals(50, result);
+    }
+    
 }
