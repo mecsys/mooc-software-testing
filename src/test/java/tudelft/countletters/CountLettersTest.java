@@ -18,8 +18,8 @@ public class CountLettersTest {
     }
     @Test
     public void WordDoesNotMatch() {
-        int words = new CountLetters().count("tiger|tax|birds|cat");
-        Assertions.assertEquals(4, words);
+        int words = new CountLetters().count("tiger|birds|cat");
+        Assertions.assertEquals(2, words);
     }
     @Test
     public void OrdDoesNotMatch() {
